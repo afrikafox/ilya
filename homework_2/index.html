@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>tabl</title>
+    </head>
+    <body>
+          <table border="1">
+                 <caption>Дз</caption>
+                 <thead>
+                       <tr>
+                           <td colspan="10" align="center" rowspan="2">Доходы стран</td>
+                      </tr>
+                </thead>
+                <tfoot>
+                     <tr>
+                         <td colspan="2">Итог</td>
+                         <td colspan="4">16000</td>
+                         <td colspan="4">27000</td>
+                   </tr>
+               </tfoot>
+               <tbody>
+                  <tr>
+                      <td colspan="2" rowspan="2"></td>
+                      <td colspan="8" align="center" >Годы</td>
+                 </tr>
+                 <tr>
+                     <td colspan="4">2000</td>
+                     <td colspan="4">2016</td>
+                </tr>
+                 <tr>
+                     <td colspan="2">ЮАР</td>
+                     <td colspan="4">2000</td>
+                     <td colspan="4">3500</td>
+                </tr>
+                 <tr>
+                     <td colspan="2">США</td>
+                     <td colspan="4">5000</td>
+                     <td colspan="4">8000</td>
+                </tr>
+                 <tr>
+                     <td colspan="2">Япония</td>
+                     <td colspan="4">4000</td>
+                     <td colspan="4">7500</td>
+                </tr>
+                 <tr>
+                     <td colspan="2">Нигер</td>
+                     <td colspan="4">1500</td>
+                     <td colspan="4">2500</td>
+                </tr>
+                 <tr>
+                     <td colspan="2">Австралия</td>
+                     <td colspan="4">3500</td>
+                     <td colspan="4">5500</td>
+                </tr>
+             </tbody>
+        </table>
+        <form action="/search.php">
+                <p><b>Пройдите опрос</b></p>
+                <p><b>Какими Браузерами вы пользовались</b><br>
+                   <label><input type="checkbox" name="browser" value="ie">Internet Explorer<br></label>
+                   <label><input type="checkbox" name="browser" value="opera">Opera<br></label>
+                   <label><input type="checkbox" name="browser" value="firefox">Firefox<br></label>
+                   <label><input type="checkbox" name="browser" value="amigo">Amigo<br></label>
+               </p>
+                <p><b>Какой браузер стоит у Вас по усмолчанию</b><br>
+                   <label><input type="radio" name="browser" value="ie">Internet Explorer<br></label>
+                   <label><input type="radio" name="browser" value="opera">Opera<br></label>
+                   <label><input type="radio" name="browser" value="firefox">Firefox<br></label>
+                   <label><input type="radio" name="browser" value="amigo">Amigo<br></label>
+               </p>
+                <p>
+                   Насколько вы довольны своим Браузером?<input type="range" name="br"  min="1" max="100" step="1">
+               </p>
+                <p>
+                   Пришлите свой рисунок "Лучший Браузер" и получите подарок<input type="file" name="foto">
+               </p>
+                <p>Почему Вы пользуетесь именно эти Браузером<br>
+                 <textarea name="comment" cols="40" rows="3"></textarea>
+               </p>
+                 <p>
+                    <input type="submit" value="Отправить">
+                    <input type="reset" value="Очистить">
+                </p>
+                <label><p><b>Узнать о Браузерах больше:</b><input type="search" name=""></label>
+        </form>
+        <form action="/search.php">
+                 <p><b>Чтобы закончить опрос нужно заполнить эти данные</b></p>
+                 <p>
+                    <label>Введите имя:<input type="text" name=""></label>
+                 </p>
+                 <p>
+                    <label>Введите пароль:<input type="password" name=""></label>
+                 </p>
+                 <p>
+                    <label>email:<input type="email" name=""></label>
+                 </p>
+                 <p>
+                    <label>Возраст:<input type="number" name="" min="1" max="99" step="1"></label>
+                 </p>
+                 <p>
+                   <label>Телефон:<input type="tel" name=""></label>
+                 </p>
+                 <p>
+                     <label>Страница в соц.сетях:<input type="url" name=""></label>
+                 </p>
+                  <p>
+                     Нажмите если заполнили все поля:<input type="submit" name="">
+                 </p>
+                  <p>
+                    <input type="submit" value="Отправить">
+                    <input type="reset" value="Очистить">
+                </p>
+                     Кликер:<input type="button" name="">
+                 </p>
+       </form>
+    </body>
+</html>
